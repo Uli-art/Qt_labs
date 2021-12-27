@@ -30,7 +30,7 @@ int getValue()
 {
     while (true)
     {
-        int a;
+        unsigned long long int a;
         std::cin >> a;
         if (std::cin.fail())
         {

@@ -15,3 +15,6 @@ TEST(Funk, Test3) {
 TEST(Funk, Test4) {
     EXPECT_EQ(91255296, Funk(888, 888, 100000000));
 }
+TEST(Funk, Test5) {
+    EXPECT_EQ(921859071, Funk((unsigned long long)(1e19)-1,(unsigned long long) (1e19) - 1, 1000000000));
+}

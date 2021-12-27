@@ -12,3 +12,4 @@ TEST(GreatestOddDivisor, Test2) {
 TEST(GreatestOddDivisor, Test3) {
     EXPECT_EQ(201537, GreatestOddDivisor(777));
 }
+
