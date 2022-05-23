@@ -1,0 +1,7 @@
+if(stack.getSize() != 0){
+        for(int i = 0; i < stack.getSize() - 1; ++i){
+            stack.pop();
+        }
+        return stack.getHeadIndex();
+    }
+    return -1;
